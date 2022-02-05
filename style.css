@@ -1,0 +1,78 @@
+h1 {
+    text-align: center;
+    color:white;
+    background-color: black;
+    border-radius: 20px 20px 20px 20px;
+    top: 20cm;
+    left: 0;
+    right: 0;
+    height: 30px;
+}
+body {
+  padding-top: 50px;
+    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+    color: #333333;
+    font-size: 15px;
+    text-align: justify;
+}
+h2 {
+    text-align: center;
+     color: gray;
+}
+img {
+  max-width: 100%;
+}
+section {
+      font-family: Verdana;
+  }
+  p { 
+      Sline-break: break-all; 
+}
+.devalexandre {
+    color: mediumblue;
+    font-weight: bold;
+}
+.trintaoitenta {
+  border-radius: 20px 20px 20px 20px;
+  animation-name: slidein;
+  animation-duration: 3s;
+  margin: auto;
+  display: block;
+  max-width: 100%;
+}  
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 70%;
+      height: 50%;
+    }  
+    to {
+      margin-left: 25%;
+      width: 50%;
+    }
+}
+.listproc {
+  margin: auto;
+  display: block;
+}
+.trintaoitenta2 {
+  width: 10cm;
+  height: 10cm;
+  margin: auto;
+  display: block;
+  max-width: 100%;
+}
+.barra {
+  background-color: rgb(3, 22, 189);
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 35px;
+   text-align: center;
+   color:white;
+}
+.tabela {
+  margin-left: auto;
+  margin-right:auto;
+}
