@@ -3,17 +3,18 @@ h1 {
     color:white;
     background-color: black;
     border-radius: 20px 20px 20px 20px;
-    top: 20cm;
+    top: 0cm;
     left: 0;
     right: 0;
     height: 30px;
 }
 body {
-  padding-top: 50px;
+  padding-top: 0px;
     font-family: Arial, Verdana, Tahoma, Sans-Serif;
     color: #333333;
     font-size: 15px;
     text-align: justify;
+    margin: 0 0 0 0;
 }
 h2 {
     text-align: center;
@@ -39,17 +40,6 @@ section {
   margin: auto;
   display: block;
   max-width: 100%;
-}  
-@keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 70%;
-      height: 50%;
-    }  
-    to {
-      margin-left: 25%;
-      width: 50%;
-    }
 }
 .listproc {
   margin: auto;
@@ -64,15 +54,21 @@ section {
 }
 .barra {
   background-color: rgb(3, 22, 189);
-   position: fixed;
-   top: 0;
-   left: 0;
-   right: 0;
-   height: 35px;
-   text-align: center;
-   color:white;
+  position: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 35px;
+  text-align: center;
+  color:white;
+  margin: 0;
 }
 .tabela {
   margin-left: auto;
   margin-right:auto;
+}
+@media screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
 }
