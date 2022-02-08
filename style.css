@@ -6,7 +6,8 @@ h1 {
     top: 0cm;
     left: 0;
     right: 0;
-    height: 30px;
+    height: 30px
+    display: block;
 }
 body {
     padding-top: 0px;
