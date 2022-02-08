@@ -9,7 +9,7 @@ h1 {
     height: 30px;
 }
 body {
-  padding-top: 0px;
+    padding-top: 0px;
     font-family: Arial, Verdana, Tahoma, Sans-Serif;
     color: #333333;
     font-size: 15px;
@@ -25,9 +25,6 @@ img {
 }
 section {
       font-family: Verdana;
-  }
-  p { 
-      Sline-break: break-all; 
 }
 .devalexandre {
     color: mediumblue;
@@ -70,5 +67,4 @@ section {
 @media screen and (max-width: 600px) {
   body {
     width: 100%;
-  }
 }
