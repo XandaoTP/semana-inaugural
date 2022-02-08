@@ -6,7 +6,7 @@ h1 {
 img {
     max-width: 100%;
 }
-@media screen and (min-width: 560px) {
+@media screen and (max-width: 560px) {
     .video {
         max-width{ 100%
            }
