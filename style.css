@@ -64,7 +64,7 @@ section {
   margin-left: auto;
   margin-right:auto;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {git
   body {
     width: 100%;
 }
