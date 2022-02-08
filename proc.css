@@ -3,3 +3,6 @@ h1 {
     font-display: 20%;
     font: italic;
 }
+img {
+    max-width: 100%;
+}
